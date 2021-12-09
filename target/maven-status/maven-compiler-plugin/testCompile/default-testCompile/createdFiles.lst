@@ -1,0 +1,16 @@
+com\eic\qa\testcases\FinancialParameterTest.class
+com\eic\qa\testcases\TmeSeriesTest.class
+com\eic\qa\testcases\SimulationTest.class
+com\eic\qa\testcases\CreateScenario.class
+com\eic\qa\testcases\EIPlantDesignTest.class
+com\eic\qa\testcases\LoadProfileTest.class
+com\eic\qa\testcases\Testpurpose.class
+excelExportAndFileIO\Demo22.class
+com\eic\qa\testcases\Reporting.class
+com\eic\qa\testcases\ScenarioInformationTest.class
+com\eic\qa\testcases\LoginPageTest.class
+com\eic\qa\testcases\TestRead.class
+com\eic\qa\testcases\UnitTests.class
+com\eic\qa\testcases\EnergyProfileTest.class
+com\eic\qa\testcases\SolarScenarioTest.class
+com\eic\qa\testcases\SolarOnlyScenario.class

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.eic.qa.testcases.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.eic.qa.testcases.SolarScenarioTest">
+        <methods>
+          <include name="UtilityGrid"/>
+          <include name="searchbyname"/>
+          <include name="ScenarioFarmSize"/>
+          <include name="eiStorageAnnualMaintenanceCostvalue"/>
+          <include name="sameContentOfExcelFiles1"/>
+          <include name="windUploadFile"/>
+          <include name="TargetReserveCapacity"/>
+          <include name="WindTextField"/>
+          <include name="save"/>
+          <include name="RadioButtonFieldTimebased"/>
+          <include name="unDiscountedCashFlowDownload"/>
+          <include name="locationdetails"/>
+          <include name="utilTotalAnnualMaintenanceCostvalue"/>
+          <include name="utlityRadioBut"/>
+          <include name="SolarUploadFile"/>
+          <include name="StorageInitialCharge"/>
+          <include name="Scenariotext"/>
+          <include name="SolarTextFiled"/>
+          <include name="DataCenterCost"/>
+          <include name="PercentageofCapacity"/>
+          <include name="createScenario"/>
+          <include name="UtilityCapacity"/>
+          <include name="utilTotalCapitalCostvalue"/>
+          <include name="Efficiencytextfiled"/>
+          <include name="Solar"/>
+          <include name="EiLiquid"/>
+          <include name="eiStorageTotalCapitalCostvalue"/>
+          <include name="eiDCESModuleTotalCapitalCostvalue"/>
+          <include name="DiscountRate"/>
+          <include name="scenariopubliccheckbox"/>
+          <include name="Simulation"/>
+          <include name="StoredEnergyCheckboxField"/>
+          <include name="TotalAnnualMaintenanceCostvalue"/>
+          <include name="DCESEIPlant"/>
+          <include name="eiDCESAnnualMaintenanceCostvalue"/>
+          <include name="savebutton"/>
+          <include name="DiscountedCashFlowDownload"/>
+          <include name="Wind"/>
+          <include name="WindRadioButton"/>
+          <include name="LCOEtabledata"/>
+          <include name="captureScreen"/>
+          <include name="energytabledata"/>
+          <include name="TotalCapitalCostvalue"/>
+          <include name="tcotabledata"/>
+          <include name="solarcapitalcostvalue"/>
+          <include name="saveButton"/>
+          <include name="saveAndContinue"/>
+          <include name="LoadCapacity"/>
+          <include name="teardown"/>
+          <include name="windAnnualMaintenanceCostvalue"/>
+          <include name="SolarRadioButton"/>
+          <include name="StorageCapacity"/>
+          <include name="AvailableRenewablePowerCheckbox"/>
+          <include name="OverallPowerSummaryCheckboxField"/>
+          <include name="windcapitalcostvalue"/>
+          <include name="SelectEfficiency"/>
+          <include name="CapacityTotalDischargeRate"/>
+          <include name="PowerToLoadCheckboxField"/>
+          <include name="Scenario"/>
+          <include name="CapacityTotalChargeRate"/>
+          <include name="basicdetails"/>
+          <include name="CashflowTable"/>
+          <include name="StoteType"/>
+          <include name="Lifetimeofplant"/>
+          <include name="ScenarioInverterSize"/>
+          <include name="Capacityvalues"/>
+          <include name="LoadProfileRadioButtonsselection"/>
+          <include name="TImeSerieslink"/>
+          <include name="CapacityFactorsSummary"/>
+          <include name="solarAnnualMaintenanceCostvalue"/>
+        </methods>
+      </class> <!-- com.eic.qa.testcases.SolarScenarioTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
