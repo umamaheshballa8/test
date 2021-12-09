@@ -69,7 +69,7 @@ public class TestBase {
 		  //if(browsername.equals("chrome")) 
 	   		 // {	}
 	   		  
-			String userDir = System.getProperty("user.dir");
+			/*String userDir = System.getProperty("user.dir");
 			String sep = System.getProperty("file.separator");		
 			 System.setProperty("webdriver.chrome.driver",userDir +sep +"Drivers"+sep+"chromedriver");
 			// System.setProperty("webdriver.chrome.driver",userDir+sep+"Drivers"+sep+"chromedriver.exe");
@@ -100,8 +100,14 @@ public class TestBase {
  		driver = new ChromeDriver(capabilities);
  				 				 
 		//}*/
+		WebDriverManager.chromedriver().setup();
+     ChromeOptions options = new ChromeOptions();
+  options.addArguments("--no-sandbox");
+  options.addArguments("--disable-dev-shm-usage");
+    options.addArguments("--headless");
+     driver = new ChromeDriver(options);
+//driver.navigate().to("https://www.google.com");
 		
-		driver.manage().window().maximize();
 		//logger.info("wimdow maximized");
 		driver.manage().deleteAllCookies();
 	   driver.manage().timeouts().pageLoadTimeout(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
@@ -123,7 +129,8 @@ public class TestBase {
 		// System.out.println(excel.getCellData(0,1));
  	    String URL= excel.getCellData(0, 1);*/
          
- 	    driver.get(URL);
+ 	    driver.navigate().to(URL);
+ 	    
  	    
  	  // driver.get(prop.getProperty("url"));
          
